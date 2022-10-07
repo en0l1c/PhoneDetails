@@ -1,9 +1,8 @@
 public class Phone {
-    String brand,
-            model,
-            releaseDate,
-            megaPixels,
-            operatingSystem;
+    String brand;
+    String model;
+    String releaseDate;
+    String operatingSystem;
 
 
 }
