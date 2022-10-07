@@ -1,10 +1,29 @@
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class SearchWord {
+
+
+    List<Phone> phoneList = new ArrayList<>();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     void readAndSearch() {
         String str = "";
         String searchWord = "";
@@ -19,7 +38,14 @@ public class SearchWord {
                 BufferedReader bReader = new BufferedReader(fReader);
 
                 while((str=bReader.readLine())!=null) {
-                    if(str.contains(searchWord)) System.out.println(str);
+                    String[] phoneProps = str.split(",");
+                    //0 for brand, 1 for model, 2 for released date, 3 for resolution, 4 for os
+                    //System.out.println(phoneProps[0]); // show us mobile brands
+
+                    phoneList.add(new Phone(phoneProps[0], phoneProps[1], phoneProps[2], phoneProps[3], phoneProps[4]));
+                    System.out.println(phoneList.toString());
+
+                    //if(str.contains(searchWord)) System.out.println(str);
                 }
                 bReader.close();
                 fReader.close();
