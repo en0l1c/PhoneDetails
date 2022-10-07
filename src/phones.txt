@@ -7,6 +7,6 @@ Apple, iPhone 4, 2011, 8MP, iOS
 Apple, iPhone 5, 2013, 10MP, iOS
 Apple, iPhone 5s, 2014, 12MP, iOS
 Huawei, P20 Lite, 2018, 12MP, Android
-Huawei P20 Pro, 2018, 48MP, Android
-Huawei P30 Lite, 2020, 16MP, Android
-Huawei P30 Pro, 2020, 48MP, Android
+Huawei, P20 Pro, 2018, 48MP, Android
+Huawei, P30 Lite, 2020, 16MP, Android
+Huawei, P30 Pro, 2020, 48MP, Android
